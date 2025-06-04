@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "slowdowner"
+version = "0.1.0"
+description = ""
+authors = ["Giovanni Piunno <Gio.piunno@ngi.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+moviepy = "^2.2.1"
+librosa = "^0.11.0"
+sounddevice = "^0.5.2"
+numpy = "^2.2.6"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
