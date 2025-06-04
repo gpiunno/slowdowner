@@ -1,3 +1,5 @@
 .venv
 .python-version
 __pycache__
+*.mp4
+*.mp3
